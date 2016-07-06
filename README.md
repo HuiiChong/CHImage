@@ -23,5 +23,5 @@ Cache
 ###For clear all images cache:
     - (void)clearAllImageCached;
 
-THANKS FOR:
-YYImage
+Reference:
+YYImage(https://github.com/ibireme/YYImage)
