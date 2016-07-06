@@ -14,15 +14,14 @@ Usage
 
 Cache
 =========
+###For clear image by name:
+    - (void)clearImageCachedByName:(NSString *)name;
 
-For clear image by name:
-- (void)clearImageCachedByName:(NSString *)name;
+###For clear images in group:
+    - (void)clearImageCached:(NSString *)ns;
 
-For clear images in group:
-- (void)clearImageCached:(NSString *)ns;
-
-For clear all images cache:
-- (void)clearAllImageCached;
+###For clear all images cache:
+    - (void)clearAllImageCached;
 
 THANKS FOR:
 YYImage
