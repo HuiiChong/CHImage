@@ -14,7 +14,7 @@ Usage
 
 Cache
 =========
-* For clear image by name:
+* ##For clear image by name:
     - (void)clearImageCachedByName:(NSString *)name;
 
 * For clear images in group:
