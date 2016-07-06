@@ -13,16 +13,6 @@ NS_ASSUME_NONNULL_BEGIN
 @interface CHImage : UIImage
 
 /**
- * default for uiimage
- * and cached the image by system
- * and if you want to clear the cache by force, you can called by the private method named "_flushSharedImageCache"
- * 
- * @param
- * image: the name of image which in mainbundle
- */
-+ (nullable CHImage *)imageNamed:(NSString *)name;
-
-/**
  * image without cache
  *
  * @param

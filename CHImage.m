@@ -97,11 +97,6 @@ static CGFloat _NSStringPathScale(NSString *string) {
     return self;
 }
 
-+ (CHImage *)imageNamed:(NSString *)name
-{
-    return [self imageNamed:name];
-}
-
 + (CHImage *)imageNamedWithoutCache:(NSString *)name
 {
     if(name.length==0) return nil;
