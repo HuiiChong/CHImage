@@ -1,5 +1,5 @@
 # CHImage
-you can use it like UIImage,and manage cache by yourself
+Use it like UIImage,and manage cache by yourself
 ==========
 
 ###For use image without cache, you can use the method:
