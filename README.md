@@ -23,3 +23,6 @@ For clear images in group:
 
 For clear all images cache:
 - (void)clearAllImageCached;
+
+THANKS FOR:
+YYImage
