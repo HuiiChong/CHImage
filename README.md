@@ -1,8 +1,9 @@
 # CHImage
-1.It's use to instead of UIImage, and manage image cache by youself.
+==========
+you can use it like UIImage,and manage cache by yourself
 
-For use image without cache, you can use the method:
-+ (nullable CHImage *)imageNamedWithoutCache:(NSString *)name;
+###For use image without cache, you can use the method:
+    + (nullable CHImage *)imageNamedWithoutCache:(NSString *)name;
 
 For use image with cache, and add the cache to the default group "-1":
 + (nullable CHImage *)imageNamedByCache:(NSString *)name;
